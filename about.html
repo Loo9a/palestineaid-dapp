@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About - PalestineAid</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body { 
+      background-color: #111; 
+      color: #f8f9fa; 
+      font-family: 'Poppins', sans-serif; 
+    }
+    .navbar { 
+      background-color: #222; 
+      border-bottom: 3px solid #28a745; 
+    }
+    .navbar-brand { 
+      color: #28a745 !important; 
+      font-weight: bold; 
+    }
+    .navbar .nav-link.active { 
+      font-weight: bold; 
+      color: #28a745 !important; 
+    }
+    .hero {
+      background: linear-gradient(120deg, #006400, #000, #cc0000);
+      text-align: center;
+      padding: 80px 20px;
+      border-bottom: 3px solid #28a745;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: #fff;
+      margin-bottom: 15px;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      color: #ddd;
+    }
+    .content { 
+      padding: 60px 20px; 
+      max-width: 1000px; 
+      margin: auto; 
+    }
+    .card-feature {
+      background-color: #1c1c1c;
+      border: 1px solid #333;
+      border-radius: 15px;
+      padding: 20px;
+      margin-bottom: 30px;
+      text-align: center;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .card-feature:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+    }
+    .card-feature i {
+      font-size: 2.5rem;
+      color: #28a745;
+      margin-bottom: 15px;
+    }
+    footer { 
+      text-align: center; 
+      margin-top: 50px; 
+      color: #aaa; 
+      border-top: 1px solid #333; 
+      padding: 20px; 
+    }
+  </style>
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">🇵🇸 PalestineAid</a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link text-light" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link text-light active" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link text-light" href="donors.html">Donors</a></li>
+          <li class="nav-item"><a class="nav-link text-light" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h1>About PalestineAid</h1>
+    <p>Decentralized, transparent donations for Palestine — every transaction traceable on the Ethereum blockchain.</p>
+  </section>
+
+  <!-- Main Content -->
+  <div class="content">
+    <p>
+      PalestineAid is a decentralized donation platform built on Ethereum. 
+      It enables transparent aid for the people of Palestine — every transaction 
+      is public, traceable, and securely stored on the blockchain.
+    </p>
+    <p>
+      Our mission is to bring full transparency to charitable donations and 
+      ensure that every ETH reaches where it’s needed most.
+    </p>
+
+    <!-- Features Cards -->
+    <div class="row mt-5">
+      <div class="col-md-4">
+        <div class="card-feature">
+          <i class="bi bi-shield-lock-fill"></i>
+          <h5 class="text-success mt-2">Security</h5>
+          <p>All transactions are secured on the blockchain, ensuring donations are safe and tamper-proof.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card-feature">
+          <i class="bi bi-eye-fill"></i>
+          <h5 class="text-success mt-2">Transparency</h5>
+          <p>Every donation is fully traceable and visible to the public — no intermediaries, no hidden fees.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card-feature">
+          <i class="bi bi-people-fill"></i>
+          <h5 class="text-success mt-2">Community</h5>
+          <p>Empowering donors worldwide to directly support causes and see their impact in real-time.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 PalestineAid DApp | Built for peace and transparency 🇵🇸</p>
+  </footer>
+</body>
+</html>

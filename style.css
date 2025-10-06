@@ -1,0 +1,58 @@
+/* Palestine color theme */
+:root {
+  --pal-green: #009639;
+  --pal-red: #ce1126;
+  --pal-black: #000000;
+  --pal-white: #ffffff;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--pal-white);
+  color: var(--pal-black);
+  padding-top: 70px; /* space for fixed navbar */
+}
+
+/* Navbar */
+.navbar {
+  background: var(--pal-black);
+}
+
+.navbar a {
+  color: var(--pal-white) !important;
+  font-weight: 600;
+}
+
+.navbar a:hover {
+  color: var(--pal-red) !important;
+}
+
+/* Hero */
+.hero {
+  background: linear-gradient(90deg, var(--pal-green), var(--pal-red));
+  color: var(--pal-white);
+  padding: 60px 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+/* Buttons */
+.btn-pal {
+  background-color: var(--pal-green);
+  color: var(--pal-white);
+  border: none;
+}
+
+.btn-pal:hover {
+  background-color: var(--pal-red);
+  color: var(--pal-white);
+}
+
+/* Footer */
+footer {
+  background: var(--pal-black);
+  color: var(--pal-white);
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
