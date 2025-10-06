@@ -1,0 +1,2 @@
+# palestineaid-dapp
+simple dapp
